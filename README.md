@@ -35,8 +35,8 @@ This app has been deployed to Heroku and can be used by following the link below
 * Firebase
 * Google Fonts
 * JavaScript
+* JSX
 * HTML5
-* CSS
 
 ### Steps to Deploy Locally
 
