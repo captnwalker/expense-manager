@@ -26,7 +26,9 @@ This app has been deployed to Heroku and can be used by following the link below
 
 * React
 * Axios
+* UUID
 * NodeJS
+* Redux
 * Yarn
 * Bulma Framework
 * SCSS
