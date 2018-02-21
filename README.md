@@ -30,13 +30,21 @@ This app has been deployed to Heroku and can be used by following the link below
 * NodeJS
 * Redux
 * Yarn
-* Bulma Framework
+* Bulma Framework ??
 * SCSS
 * Firebase
 * Google Fonts
 * JavaScript
 * JSX
 * HTML5
+* RegEx
+* Moment.js
+* AirBnB/React-Dates
+
+### Dev Enviroment Tools
+
+* Babelrc Compiler
+* WebPack
 
 ### Steps to Deploy Locally
 

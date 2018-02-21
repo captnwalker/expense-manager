@@ -2,7 +2,7 @@ import React from 'react';
 
 const HelpPage = () => (
     <div>
-        This is HelpPage componenet
+        Future Home of the HelpPage component
     </div>
 );
 
