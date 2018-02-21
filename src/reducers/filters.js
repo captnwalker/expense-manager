@@ -1,12 +1,14 @@
-//Filters Reducer
+import moment from 'moment';
 
+// Filters Reducer - set params and use switch to call actions
 const filtersReducerDefaultState = {
     text: '',
     sortBy: 'date',
-    startDate: undefined,
-    endDate: undefined
+    startDate: moment().startOf('month'),
+    endDate: moment().endOf('month')
 };
 
+// Switches to call various filter actions
 export default (state = filtersReducerDefaultState, action) => {
     switch (action.type) {
         case 'SET_TEXT_FILTER':

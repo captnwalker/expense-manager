@@ -44,6 +44,9 @@ typings/
 # Optional npm cache directory
 .npm
 
+#Apple Desktop Services
+.DS_Store
+
 # Optional eslint cache
 .eslintcache
 

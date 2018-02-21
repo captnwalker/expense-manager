@@ -29,6 +29,7 @@ This app has been deployed to Heroku and can be used by following the link below
 * UUID
 * NodeJS
 * Redux
+* Redux-Devtools-Extension
 * Yarn
 * Bulma Framework ??
 * SCSS
