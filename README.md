@@ -29,7 +29,6 @@ This app WILL BE deployed to Heroku and can be used by following the link below:
 * UUID
 * NodeJS
 * Redux
-* Redux-Devtools-Extension
 * Yarn
 * Bulma Framework ??
 * SCSS
@@ -46,8 +45,10 @@ This app WILL BE deployed to Heroku and can be used by following the link below:
 
 * Babelrc Compiler
 * WebPack
+* extract-text-webpack-plugin
 * LiveServer
 * Jest Testing Framework
+* Redux-Devtools-Extension
 
 ### Steps to Deploy Locally
 
