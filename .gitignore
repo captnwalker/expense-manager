@@ -37,6 +37,10 @@ node_modules/
 jspm_packages/
 playground/
 sandbox/
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
 
 # Typescript v1 declaration files
 typings/
