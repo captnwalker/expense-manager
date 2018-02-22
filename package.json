@@ -1,7 +1,7 @@
 {
   "name": "expense-manager",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "author": "Steve Walker",
   "license": "MIT",
   "scripts": {
