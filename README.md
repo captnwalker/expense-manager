@@ -1,4 +1,4 @@
-# expense-manager
+# expense-manager -- IN PRODUCTION
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@
 
 ### Deployment
 
-This app has been deployed to Heroku and can be used by following the link below:
+This app WILL BE deployed to Heroku and can be used by following the link below:
 
 [expense-manager](https://pure-sava65.herokuapp.com/ "expense-manager")
 
@@ -42,10 +42,12 @@ This app has been deployed to Heroku and can be used by following the link below
 * Moment.js
 * AirBnB/React-Dates
 
-### Dev Enviroment Tools
+### Dev Enviroment and Testing Tools
 
 * Babelrc Compiler
 * WebPack
+* LiveServer
+* Jest Testing Framework
 
 ### Steps to Deploy Locally
 
