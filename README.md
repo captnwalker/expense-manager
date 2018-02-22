@@ -2,8 +2,6 @@
 
 ## Table of Contents
 
-
-
 ## Purpose of this project
 
 >**"expense-manager"** allows the user to track expenses.
@@ -14,9 +12,9 @@
 
 ### Deployment
 
-This app WILL BE deployed to Heroku and can be used by following the link below:
+This app is deployed to Heroku and can be used by following the link below:
 
-[expense-manager](https://pure-sava65.herokuapp.com/ "expense-manager")
+[expense-manager](https://expense-tracker2.herokuapp.com/ "expense-manager")
 
 ### Screenshot of this Project
 
