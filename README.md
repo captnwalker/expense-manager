@@ -1,4 +1,4 @@
-# expense-manager -- IN PRODUCTION
+# expense-manager --  IN PRODUCTION - IN PRODUCTION
 
 ## Table of Contents
 
