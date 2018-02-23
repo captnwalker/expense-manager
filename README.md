@@ -12,7 +12,7 @@
 
 ### Deployment
 
-This app is deployed to Heroku and can be used by following the link below:
+**"expense-manager"** has been deployed to an Heroku Dyno and can be used by following the link below:
 
 [expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")
 
