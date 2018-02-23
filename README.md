@@ -23,9 +23,9 @@
 ### Technologies Utilized
 
 * React
-* Axios
-* UUID
+* Express
 * NodeJS
+* UUID
 * Redux
 * Redux-Thunk
 * Yarn
