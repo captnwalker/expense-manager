@@ -14,7 +14,7 @@
 
 This app is deployed to Heroku and can be used by following the link below:
 
-[expense-manager](https://expense-tracker2.herokuapp.com/ "expense-manager")
+[expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")
 
 ### Screenshot of this Project
 
@@ -36,6 +36,7 @@ This app is deployed to Heroku and can be used by following the link below:
 * JSX
 * HTML5
 * RegEx
+* Numeral.js
 * Moment.js
 * AirBnB/React-Dates
 
