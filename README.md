@@ -12,7 +12,7 @@
 
 ### Deployment
 
-**"expense-manager"** has been deployed to an Heroku Dyno and can be used by following the link below:
+**"expense-manager"** has been deployed to an Heroku Dyno and can be used by following the link below (Note: *Resting Dyno's can often take 10 to 15 seconds to spinup on initial load and are not indicative of the true site load speed.*):
 
 [expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")
 
@@ -27,6 +27,7 @@
 * UUID
 * NodeJS
 * Redux
+* Redux-Thunk
 * Yarn
 * Bulma Framework ??
 * SCSS

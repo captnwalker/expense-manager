@@ -1,6 +1,13 @@
-import { createStore, combineReducers } from 'redux';
+import { createStore, combineReducers, applyMiddleware, compose} from 'redux';
 import expensesReducer from '../reducers/expenses';
 import filtersReducer from '../reducers/filters';
+import thunk from 'redux-thunk';
+
+// Building our store with redux and redux-thunk middleware
+// Redux is a predictable state container for JavaScript apps. Esentially, Flux for React
+// Redux-Thunk is a function that wraps an expression to delay its evaluation
+
+const composeEnhancers = window.__REDUX_REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export default () => {
     const store = createStore(
@@ -8,7 +15,8 @@ export default () => {
             expenses: expensesReducer,
             filters: filtersReducer
         }),
-        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+
+        composeEnhancers(applyMiddleware(thunk))       
     );
 
         return store;
