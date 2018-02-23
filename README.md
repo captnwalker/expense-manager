@@ -18,7 +18,7 @@
 
 ### Screenshot of this Project
 
-![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshot/screenshot1.gif "expense-manager")
+![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshots/screenshot1.jpg "expense-manager")
 
 ### Technologies Utilized
 
