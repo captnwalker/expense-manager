@@ -1,5 +1,4 @@
 node_modules/
-src/playground/
 src/sandbox/
 src/tests
 public/dist/
