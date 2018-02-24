@@ -52,11 +52,11 @@
 
 ### Steps to Deploy Locally
 
-1. Run `npm install -g create-react-app yarn`
-2. Clone down this repo
-3. Restore dependencies by running `yarn install` in the root of the repo
-4. Start local server by running `yarn start`
-5. Tell your friends!
+1. Clone down this repo
+2. Restore dependencies by running `yarn install` in the root of the repo
+3. Restore productions files by running `yarn run prod:build`
+3. Start local server by running `yarn run dev-server`
+4. You are now in developemnt mode
 
 ---
 
