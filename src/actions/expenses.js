@@ -19,7 +19,8 @@ export const startAddExpense = (expenseData = {}) => {
 
             const expense = { description, note, amount, createdAt};
 
-        database.ref('expenses').push(expense).then((ref) => {
+//MAY NEED TO REMOVE THE (RETURN) BELOW THIS LINE--ADDED IN TESTING///////////
+        return database.ref('expenses').push(expense).then((ref) => {
             dispatch(addExpense({
                 id: ref.key,
                 ...expense
