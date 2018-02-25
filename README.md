@@ -1,4 +1,4 @@
-# IN PRODUCTION - *Expense-Manager* - IN PRODUCTION
+# IN DEVELOPMENT - *Expense-Manager* - IN DEVELOPMENT
 
 ## Purpose of this Project
 
