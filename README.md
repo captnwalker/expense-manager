@@ -1,65 +1,50 @@
-# expense-manager --  IN PRODUCTION - IN PRODUCTION
+# IN PRODUCTION - *Expense-Manager* - IN PRODUCTION
+- 
+## Purpose of this Project
 
-## Table of Contents
+>**"Expense-Manager"** allows an individual user or company to track personal or buisness expenses.
 
-## Purpose of this project
-
->**"expense-manager"** allows the user to track expenses.
+- [Table of Contents](#in-production---expense-manager---in-production)
+    - [How to Use](#how-to-use)
+    - [Deployment](#deployment)
+    - [Screenshot of this Project](#screenshot-of-this-project)
+    - [Technologies Utilized](#technologies-utilized)
+    - [Steps to Deploy Locally](#steps-to-deploy-locally)
+    - [License -  MIT](#license---mit)
 
 ### How to Use
 
->Create account, login.
+>Create account; login. Enter expenses on the add expense page. Review, Sort, Filter, Tally, Modify and/or delete expense records in the Dashboard.
 
 ### Deployment
 
-**"expense-manager"** has been deployed to an Heroku Dyno and can be used by following the link below (Note: *Resting Dyno's can often take 10 to 15 seconds to spinup on initial load and are not indicative of the true site load speed.*):
-
-[expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")
+ >The **[expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")** has been deployed to a Heroku Dyno and can be used by following the link. (Note: *Resting Dyno's can often take 10 to 15 seconds to spinup on initial load and are not indicative of a sites true load speed.*)
 
 ### Screenshot of this Project
 
-![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshots/screenshot1.jpg "expense-manager")
+ ![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshots/screenshot1.jpg "expense-manager")
 
 ### Technologies Utilized
 
-* React
-* Express
-* NodeJS
-* UUID
-* Redux
-* Redux-Thunk
-* Yarn
-* Bulma Framework ??
-* SCSS
-* Firebase
-* Google Fonts
-* JavaScript
-* JSX
-* HTML5
-* RegEx
-* Numeral.js
-* Moment.js
-* AirBnB/React-Dates
-
-### Dev Enviroment and Testing Tools
-
-* Babelrc Compiler
-* WebPack
-* extract-text-webpack-plugin
-* LiveServer
-* Jest Testing Framework
-* Redux-Devtools-Extension
+| Core | Styling/Authentication | Auxillary | Dev Environment/Testing
+| :---: | :---: | :---: | :---:
+| React | SCSS | AirBnB/React-Dates | Babelrc Compiler
+| Express | Google Fonts | Moment.js | WebPack
+| NodeJS | Bulma Framework | Numeral.js | Jest Testing Framework
+| Redux | Google Login | Yarn | Redux-Devtools-Extension
+| Firebase DB | Firebase AuthO | UUID | extract-text-webpack-plugin
+| JSX |  | Redux-Thunk | LiveServer
+| JavaScript |  | RegEx | Poly-Fill |
+| HTML5 |   |   |   |     |
 
 ### Steps to Deploy Locally
 
 1. Clone down this repo
 2. Restore dependencies by running `yarn install` in the root of your local repo
-3. Restore productions files by running `yarn run prod:build`
+3. Restore production files by running `yarn run prod:build`
 4. Start local server by running `yarn run dev-server`
-5. You are now in development mode
+5. You are now in development mode on localhost:8080
 
 ---
 
-### Author
-
-* **Steve Walker**  | [LinkedIn](https://www.linkedin.com/in/stevelwalker/)
+### License -  MIT
