@@ -4,7 +4,7 @@
 
 >**"Expense-Manager"** allows an individual user or company to track personal or business expenses.
 
-## Table of Contents
+### Table of Contents
 
 - [Expense-Manager](#in-production---expense-manager---in-production)
     - [How to Use](#how-to-use)
