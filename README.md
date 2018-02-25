@@ -11,6 +11,7 @@
     - [Deployment](#deployment)
     - [Screenshot of this Project](#screenshot-of-this-project)
     - [Technologies Utilized](#technologies-utilized)
+    - [Server-side Data Input Validation](#server---side-data-input-validation)
     - [Steps to Deploy Locally](#steps-to-deploy-locally)
     - [License -  MIT](#license---mit)
 
@@ -38,6 +39,46 @@
 | JSX |  | Redux-Thunk | LiveServer
 | JavaScript |  | RegEx | Poly-Fill |
 | HTML5 |   |   | History |     |
+
+### Server-side Data Input Validation (Firebase)
+
+```json
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      "$user_id": {
+        ".read": "$user_id === auth.uid",
+        ".write": "$user_id === auth.uid",
+        "expenses": {
+          "$expense_id": {
+            ".validate": "newData.hasChildren(['description', 'note', 'createdAt', 'amount'])",
+              "description": {
+                ".validate": "newData.isString() && newData.val().length > 0"
+              },
+              "note": {
+                ".validate": "newData.isString()"
+              },
+              "createdAt": {
+                ".validate": "newData.isNumber()"
+              },
+              "amount": {
+                ".validate": "newData.isNumber()"
+              },
+              "$other": {
+            	".validate": false
+          	}
+          }
+        },
+          "$other": {
+            ".validate": false
+        }
+      }
+    }
+  }
+}
+```
 
 ### Steps to Deploy Locally
 
