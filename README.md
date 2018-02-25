@@ -1,10 +1,12 @@
 # IN PRODUCTION - *Expense-Manager* - IN PRODUCTION
-- 
+
 ## Purpose of this Project
 
->**"Expense-Manager"** allows an individual user or company to track personal or buisness expenses.
+>**"Expense-Manager"** allows an individual user or company to track personal or business expenses.
 
-- [Table of Contents](#in-production---expense-manager---in-production)
+## Table of Contents
+
+- [Expense-Manager](#in-production---expense-manager---in-production)
     - [How to Use](#how-to-use)
     - [Deployment](#deployment)
     - [Screenshot of this Project](#screenshot-of-this-project)
@@ -14,7 +16,7 @@
 
 ### How to Use
 
->Create account; login. Enter expenses on the add expense page. Review, Sort, Filter, Tally, Modify and/or delete expense records in the Dashboard.
+>Create account/login. Enter expenses on the add expense page. Review, Sort, Filter, Tally, Modify and/or delete expense records in the Dashboard.
 
 ### Deployment
 
