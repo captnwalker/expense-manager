@@ -16,7 +16,7 @@
 
 ### How to Use
 
->Create account/login. Enter expenses on the add expense page. Review, Sort, Filter, Tally, Modify and/or delete expense records in the Dashboard.
+>Create account/login. Enter expenses on the add expense page. Review, Sort, Filter, Tally, Modify and/or Delete expense records in the Dashboard.
 
 ### Deployment
 
