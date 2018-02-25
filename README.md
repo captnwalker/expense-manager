@@ -28,7 +28,7 @@
 
 ### Technologies Utilized
 
-| Core | Styling/Authentication | Auxillary | Dev Environment/Testing
+| Core | Styling/Authentication | Dependencies | Dev Environment/Testing
 | :---: | :---: | :---: | :---:
 | React | SCSS | AirBnB/React-Dates | Babelrc Compiler
 | Express | Google Fonts | Moment.js | WebPack
@@ -37,7 +37,7 @@
 | Firebase DB | Firebase AuthO | UUID | extract-text-webpack-plugin
 | JSX |  | Redux-Thunk | LiveServer
 | JavaScript |  | RegEx | Poly-Fill |
-| HTML5 |   |   |   |     |
+| HTML5 |   |   | History |     |
 
 ### Steps to Deploy Locally
 
