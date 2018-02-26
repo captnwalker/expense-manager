@@ -36,8 +36,8 @@
 | NodeJS | Bulma Framework | Numeral.js | Jest Testing Framework
 | Redux | Google Login | Yarn | Redux-Devtools-Extension
 | Firebase DB | Firebase AuthO | UUID | extract-text-webpack-plugin
-| JSX |  | Redux-Thunk | LiveServer
-| JavaScript |  | RegEx | Poly-Fill |
+| JSX |  | Redux-Thunk | Babel Poly-Fill
+| JavaScript | CSS | RegEx | LiveServer |
 | HTML5 |   |   | History |     |
 
 ### Server-side Data Input Validation (Firebase)
