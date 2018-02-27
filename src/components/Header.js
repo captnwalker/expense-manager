@@ -16,11 +16,7 @@ export const Header = ({ startLogout }) => (
                      <h1>Restaurant Expense Tracker</h1>
                 </Link>
 
-        {/* <NavLink to="/create" activeClassName="is-active">Enter Invoice</NavLink> */}
-
-                {/* <Link to="/help" className="ressies">Reservations</Link> */}
-
-            <a href = "#" target = "_blank" button className = "button button--link"> Reservations </a>
+                <a href ="/reservationspage" button className="button button--link">Reservations</a>
 
 
              <button className="button button--link" onClick={startLogout}>Logout</button>
