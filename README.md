@@ -90,7 +90,7 @@
 
 1. Clone down this repo
 2. Restore dependencies by running `yarn install` in the root of your local repo
-3. Restore production files by running `yarn run prod:build`
+3. Restore production files by running `yarn run build:prod`
 4. Start local server by running `yarn run dev-server`
 5. You are now in development mode on localhost:8080
 
