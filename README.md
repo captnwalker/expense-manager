@@ -2,7 +2,7 @@
 
 ## Purpose of this Project
 
->**"Expense-Manager"** allows an individual user or company to track personal or business expenses. Expense-Manager is built in React with SCSS styling which permits each individual element to occupy separate files making the product easily scalable and customizable by swapping components in and out as required for a wide variety of end users. This version of the Expense-Manager has been customized for use in food service and restaurant environments.
+>**"Expense-Manager"** allows an individual user or company to track personal or business expenses. Expense-Manager is built in React with SCSS styling which permits each individual element to occupy separate files making the product easily scalable and customizable by swapping components in and out as required for a wide variety of end users. The app is fully responsive for a seamless mobile-use experience. This version of the Expense-Manager has been customized for use in food service and restaurant environments.
 
 ### Table of Contents
 
@@ -19,17 +19,19 @@
 
 ### How to Use
 
->Create account/login. Enter expenses on the add expense page. Review, Sort, Filter, Tally, Modify and/or Delete expense records in the Dashboard.
+>Login with your Google account. Click Add Expense to Enter expenses. Review, Sort, Filter, and Tally expense records in the Dashboard. Click any record in the Dashboard to read Notes, Modify and/or Delete it on the Edit's Page.
 
 ### Deployment
 
- >The **[expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")** has been deployed to a Heroku Dyno and can be used by following the link. (Note: *Resting Dyno's can often take 10 to 15 seconds to spinup on initial load and are not indicative of a sites true load speed.*)
+ >The **[expense-manager](https://expense-manager3.herokuapp.com/ "expense-manager")** has been deployed to a Heroku Dyno and can be used by following the link. (Note: *Resting Dyno's can often take 10 to 15 seconds to spin up on initial load and are not indicative of a sites true load speed.*)
 
 ### Screenshots of this Project
 
 ![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshots/screenshot1.png "expense-manager")
 
 ![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshots/screenshot2.gif "expense-manager")
+
+![expense-manager](https://raw.github.com/captnwalker/expense-manager/master/screenshots/screenshot5.jpg "expense-manager")
 
 ### Technologies Utilized
 
