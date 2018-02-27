@@ -20,6 +20,9 @@ export const Header = ({ startLogout }) => (
 
                 {/* <Link to="/help" className="ressies">Reservations</Link> */}
 
+            <a href = "#" target = "_blank" button className = "button button--link"> Reservations </a>
+
+
              <button className="button button--link" onClick={startLogout}>Logout</button>
         </div>
    </div>
