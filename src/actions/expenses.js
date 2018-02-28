@@ -8,6 +8,7 @@ export const addExpense = (expense) => ({
     expense
 });
 
+// Capturing state at add expense
 export const startAddExpense = (expenseData = {}) => {
     return (dispatch, getState) => {
         const uid = getState().auth.uid;
@@ -20,6 +21,7 @@ export const startAddExpense = (expenseData = {}) => {
 
             const expense = { description, note, amount, createdAt};
 
+            // Fetching specific expense by unique id
         return database.ref(`users/${uid}/expenses`).push(expense).then((ref) => {
             dispatch(addExpense({
                 id: ref.key,
@@ -52,6 +54,7 @@ export const editExpense = (id, updates) => ({
     updates
 });
 
+// Exporting the current edit expense state
 export const startEditExpense = (id, updates) => {
     return (dispatch, getState) => {
         const uid = getState().auth.uid;
@@ -67,6 +70,7 @@ export const setExpenses = (expenses) => ({
     expenses
 });
 
+// Exporting the current set expense state
 export const startSetExpenses = () => {
     return (dispatch, getState) => {
         const uid = getState().auth.uid;

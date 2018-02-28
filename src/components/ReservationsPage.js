@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import Header from './Header';
 
+// this page is Under Construction
 export class ReservationsPage extends React.Component {
 
 render() {

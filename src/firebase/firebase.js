@@ -1,5 +1,6 @@
 import * as firebase from 'firebase';
 
+// var to conceal Firebase db api keys
 const config = {
     apiKey: process.env.FIREBASE_API_KEY,
     authDomain: process.env.FIREBASE_AUTH_DOMAIN,
@@ -11,9 +12,11 @@ const config = {
 
 firebase.initializeApp(config);
 
+// Defines db and Google/Firebase authorization
 const database = firebase.database();
 const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
+// Prompt Google login account selction modal
 googleAuthProvider.setCustomParameters({
     prompt: 'select_account'
 });

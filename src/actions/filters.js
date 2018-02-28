@@ -1,3 +1,4 @@
+// All filters are defined and exported in this file
 // SET_TEXT_FILTER
 export const setTextFilter = (text = '') => ({
     type: 'SET_TEXT_FILTER',

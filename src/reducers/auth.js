@@ -1,3 +1,4 @@
+// Reducer to e logged-in/logged-out state
 export default (state = {}, action) => {
     switch (action.type) {
         case 'LOGIN':

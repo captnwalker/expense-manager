@@ -1,3 +1,4 @@
+// Deprecated / Retained for possible future use
 import React from 'react';
 
 const HelpPage = () => (

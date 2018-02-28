@@ -1,6 +1,6 @@
 import moment from 'moment';
 
-// Get Visible Expenses
+// Get Visible Expenses; sorts and generates the expense output table in dashboard
 export default (expenses, { text, sortBy, startDate, endDate }) => {
     return expenses.filter((expense) => {
 

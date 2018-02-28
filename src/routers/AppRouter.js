@@ -13,6 +13,7 @@ import PublicRoute from './PublicRoute';
 
 export const history = createHistory();
 
+// Page routing switch
 const AppRouter = () => (
     <Router history={history}>
         <div>

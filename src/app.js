@@ -12,8 +12,10 @@ import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
 import LoadingPage from './components/LoadingPage'; 
 
+// Define the store
 const store = configureStore();
 
+// Set variable
 const jsx = (
     <Provider store={store}>
         <AppRouter />
@@ -31,6 +33,7 @@ const renderApp = () => {
 
 ReactDOM.render(<LoadingPage/>, document.getElementById('app'));
 
+// Firebase authorization scheme
 firebase.auth().onAuthStateChanged((user) => {
     if (user) {
         store.dispatch(login(user.uid));

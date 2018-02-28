@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Route, Redirect } from 'react-router-dom';
 import Header from '../components/Header';
 
+// Private routing -- verifies user is authenticated
 export const PrivateRoute = ({ 
     isAuthenticated, 
     component: Component,

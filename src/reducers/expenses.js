@@ -1,5 +1,4 @@
-//Expenses Reducer
-
+//Expenses Reducers
 const expensesReducerDefaultState = []
 
 export default (state = expensesReducerDefaultState, action) => {
