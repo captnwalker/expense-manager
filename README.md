@@ -1,4 +1,4 @@
-# Expense-Manager :dollar: :chart_with_upwards_trend:
+# Expense-Manager  :moneybag: :chart_with_upwards_trend:
 
 ## Purpose of this Project
 
