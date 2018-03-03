@@ -1,4 +1,4 @@
-# Expense-Manager
+# Expense-Manager :moneybag: :chart_with_upwards_trend:
 
 ## Purpose of this Project
 
@@ -15,6 +15,7 @@
     - [Technologies Utilized](#technologies-utilized)
     - [Server-side Data Input Validation (Firebase)](#server-side-data-input-validation-firebase)
     - [Steps to Deploy Locally](#steps-to-deploy-locally)
+    - [Companion Versions of the App](#companion-versions-of-the-app)
     - [License -  MIT](#license---mit)
 
 ### How to Use
@@ -93,6 +94,20 @@
 3. Restore production files by running `yarn run build:prod`
 4. Start local server by running `yarn run dev-server`
 5. You are now in development mode on localhost:8080
+6. Deploy to hot of your choice: ex.; Heroku
+7. Connect to a database and authentication of your choice: ex.; Firebase
+8. Create Firebase DB and authentication per Firbase documentation
+9. Add API keys to your local project
+10. Set Firebase API keys in Heroku: `heroku config:set <list all 6 keys separated by a space>`
+11. You should now be able to login on your deployed site
+
+### Companion Versions of the App
+
+This app was built in React to be easily scalable. Other versions of this app can be found on the following repo's.
+
+* [expense-manager](https://github.com/captnwalker/expense-manager "expense-manager")
+* [personal-expense-manager](https://github.com/captnwalker/personal-expense-manager "personal-expense-manager")
+* [general-ledger](https://github.com/captnwalker/general-ledger "general-ledger")
 
 ---
 
