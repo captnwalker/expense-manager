@@ -107,9 +107,10 @@
 
 This app was built in React to be easily scalable. Other versions of this app can be found on the following repo's.
 
-* [expense-manager](https://github.com/captnwalker/expense-manager "expense-manager")
-* [personal-expense-manager](https://github.com/captnwalker/personal-expense-manager "personal-expense-manager")
-* [general-ledger](https://github.com/captnwalker/general-ledger "general-ledger")
+* [Expense-Manager](https://github.com/captnwalker/expense-manager "Expense-Manager")
+* [Personal-Expense-Manager](https://github.com/captnwalker/personal-expense-manager "Personal-Expense-Manager")
+* [Reservationist](https://github.com/captnwalker/reservationist "Reservationist")
+* [General-Ledger](https://github.com/captnwalker/general-ledger "General-Ledger")
 
 ---
 
