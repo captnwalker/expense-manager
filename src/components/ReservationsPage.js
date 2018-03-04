@@ -18,11 +18,12 @@ render() {
                     </div>
                 
                 </div>
-            <div className="squirrel">
-                <img src="/img/jackhammer-squirrel.jpg" alt="Under Construction" />
+                <div className="squirrel">
+                    <p><h1>Under Construction</h1></p>
+                        <img src="/img/jackhammer-squirrel.jpg" alt="Under Construction" />                
                 </div>
-            </div>
-        );
+        </div>
+      );
     }
 }
 export default connect(undefined)(ReservationsPage);
