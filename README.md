@@ -94,11 +94,11 @@
 3. Restore production files by running `yarn run build:prod`
 4. Start local server by running `yarn run dev-server`
 5. You are now in development mode on localhost:8080
-6. Deploy to hot of your choice: ex.; Heroku
+6. Deploy to host of your choice: ex.; Heroku
 7. Connect to a database and setup authentication of your choice: ex.; Firebase
 8. Create Firebase DB and authentication per Firebase documentation
 9. Add *your* API keys to *your* local project
-10. Set Firebase API keys in Heroku form command line: `heroku config:set <list all 6 keys copied from your .env file and separated by a space>`
+10. Set Firebase API keys in Heroku from command line: `heroku config:set <list all 6 keys copied from your .env file and separated by a space>`
 11. You should now be able to login to your deployed site
 
 ***Note:*** *If you encounter a `FIREBASE FATAL ERROR` when you attempt to launch your app, please refer to the repo [Firebase-Fatal-Error-Heroku-Deploy-Solved](https://github.com/captnwalker/Firebase-Fatal-Error-Heroku-Deploy-Solved "Firebase-Fatal-Error-Heroku-Deploy-Solved") for a possible solution.*
