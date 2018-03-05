@@ -13,10 +13,12 @@ export const Header = ({ startLogout }) => (
             <div className="header__content">
 
                 <Link className="header__logo" to="/dashboard">
-                     <h1>Restaurant Expense Tracker</h1>
+                     <h1>Restaurant Expense Manager</h1>
                 </Link>
 
-                <a href="https://reservationist1.herokuapp.com/" target="_blank" button className="button button--link">Reservations</a>
+                <a href="https://reservationist1.herokuapp.com/" 
+                target="_blank" 
+                button className="button button--link">Reservations</a>
 
 
              <button className="button button--link" onClick={startLogout}>Logout</button>
