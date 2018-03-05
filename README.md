@@ -2,7 +2,7 @@
 
 ## Purpose of this Project
 
->**"Expense-Manager"** allows an individual user or company to track personal or business expenses. Expense-Manager is built in React with SCSS styling which permits each individual element to occupy separate files making the product easily scalable and customizable by swapping components in and out as required for a wide variety of end users. The app is fully responsive for a seamless mobile user experience. This version of the Expense-Manager has been customized for use in food service and restaurant environments.
+>**"Expense-Manager"** allows an individual user or company to track personal or business expenses. Expense-Manager is built in React with SCSS styling which permits each individual element to occupy separate files making the product easily scalable and customizable by swapping components in and out as required for a wide variety of end users. The app is fully responsive for a seamless mobile user experience. This version of the Expense-Manager has been customized for use in food service and restaurant environments. As an extra feature, if a restaurant manager finds themselves in the back office entering invoices when a call for a reservation comes in, they can click the "reservation" link and be taken to our [Reservationist](https://github.com/captnwalker/reservationist "Reservationist") product, saving them a trip to the host desk to enter the reservatoion. 
 
 ### Table of Contents
 
