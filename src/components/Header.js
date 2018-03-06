@@ -16,7 +16,7 @@ export const Header = ({ startLogout }) => (
                      <h1>Restaurant Expense Manager</h1>
                 </Link>
 
-                <a href="https://reservationist1.herokuapp.com/" 
+                <a href="https://reservationist-2.herokuapp.com/" 
                 target="_blank" 
                 button className="button button--link">Reservations</a>
 
